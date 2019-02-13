@@ -43,7 +43,7 @@ render(){
           //onClick function to prevent the parents event from beeing triggered
           onClick={event => event.stopPropagation()}>
             <div className="modal-head">
-              <h2>A simple animation Demo</h2>  
+              <h2>Hover-Event Animation Demo</h2>  
             </div>
             <button className="close-btn" onClick={this.props.close}>
                 <CloseIcon width="20px"/>
