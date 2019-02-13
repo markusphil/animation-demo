@@ -10,9 +10,9 @@ export const CloseIcon = ({width})=>
      <g >
     <line x1="1" y1="17" 
           x2="18" y2="1" 
-          stroke-width="2"/>
+          strokeWidth="2"/>
     <line x1="1" y1="1" 
           x2="17" y2="17" 
-          stroke-width="2"/>
+          strokeWidth="2"/>
           </g>
 </svg>);

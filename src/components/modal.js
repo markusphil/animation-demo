@@ -15,7 +15,7 @@ export class Modal extends Component {
     componentDidMount() {
 		this.modalTween
 			.to(this.modalWrap, 1, { autoAlpha: 1 })
-			.from(this.modalDialog, 1, { y: 0, autoAlpha: 0 },0)
+			.from(this.modalDialog, 1, { y: -100, autoAlpha: 0 },0)
             .reversed(true)
             .paused(false);
     }
@@ -71,7 +71,7 @@ render(){
                 </p>
               </div>
             </div>
-            <div className="modal-footer"> created by Markus Philipp - Feb 2019 - <a href="">github</a></div>
+            <div className="modal-footer"> created by Markus Philipp - Feb 2019 - <a href="https://github.com/markusphil/animation-demo">github</a></div>
         </div>
     </div>
     )}
