@@ -5,7 +5,7 @@ const Mask = styled.div (
     {position: "absolute",
     top: "0",
     left: "0",
-    color: "rgb(240, 191, 150)",
+    color: "#71928a",
     width: "100%",
     height: "100%"
     

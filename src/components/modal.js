@@ -50,25 +50,28 @@ render(){
             </button> 
             <div className="modal-container">
               <div className="modal-content">
-                <p>This demo showcases some experiments with animations I've done the past weeks. It uses different techniques to create interactive animations.  Please note that it is not optimized for performance and stability and doesn't support touch events.</p>
+                <p>This demo showcases some experiments with animations I've done the past weeks. It uses different technologies to create interactive animations. Please note that it is not optimized for performance and stability and doesn't support touch events.</p>
                 <h3>Using React as Framework</h3>
-                <p>The demo uses React as "state of the art" framework to create a component based user interface and is deployed via github and <a id="nlfy-link" href="https://www.netlify.com/">netlify</a></p>
+                <p>The demo uses React as state-of-the-art framework to create a component based user interface. It is deployed via github and <a id="nlfy-link" href="https://www.netlify.com/">netlify</a></p>
               </div>
               <div className="modal-content">
                 <h3>Animated Clip-Path Hover-Effect</h3>
-                <p>This animation is created with a styled component using <a id="emotion-link" href="https://emotion.sh/">emotion</a>. 
-                While moving the mouse over the text-container, the mouse's position gets updated and stored in the components state which is then used to rerender the components clip-path css value. 
+                <p>The first animation is created with a styled component using <a id="emotion-link" href="https://emotion.sh/">emotion</a>. 
+                While moving the cursor over the text-container, the mouse's position gets updated and stored in the components state, which is then used to rerender the component's css clip-path value. 
                 </p>
               </div>
               <div className="modal-content">
                 <h3>Animated 3D-Tilt Hover-Effect</h3>
-                <p>The second animation also uses the mouse position. But instead of using a styled component, the animation is generated with <a id="gsap-link" href="https://greensock.com/" >GSAP's</a> TweenLite tool. Mouse movement on the container updates the state, which triggers a function that overrides the animations traget transformation. 
+                <p>The second animation also uses the mouse'S position. 
+                  But instead of using a styled component, the animation is generated with <a id="gsap-link" href="https://greensock.com/" >GSAP's</a> TweenLite tool.
+                  Mouse movement on the container again updates the state, which triggers a function that overrides the animation's traget transformation. 
                 </p>
               </div>
               <div className="modal-content">
                 <h3>GSAP for simple animation</h3>
-                <p> Greensocks TweenLite and TimelineLite tools are also used for animating the infobox, button and modal. For the infobox I additionaly used the transition tool of <a id="rtg-link" href="https://reactcommunity.org/react-transition-group/">react-transition-group</a> which handles the entrance and exit of components at the DOM. 
+                <p> Greensocks TweenLite and TimelineLite tools are also used for animating the infobox, the button and the modal. For the infobox I additionaly used the Transition component of <a id="rtg-link" href="https://reactcommunity.org/react-transition-group/">react-transition-group</a> which handles the entrance and exit of components to the DOM. 
                 </p>
+                <p>Background photo by <a href="https://www.pexels.com/photo/palm-tree-926641/">Hedaetul Islam</a> </p>
               </div>
             </div>
             <div className="modal-footer"> created by Markus Philipp - Feb 2019 - <a href="https://github.com/markusphil/animation-demo">github</a></div>

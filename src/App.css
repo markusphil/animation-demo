@@ -5,6 +5,27 @@
   overflow: hidden;
   
 }
+a {
+  color: white
+}
+
+a:hover {
+  color: #71928a;
+}
+.close-btn {
+  color: white;
+  background: none;
+  border: none;
+  position: absolute;
+  top: 22px;
+  right: 15px;
+}
+.svg-icon {
+  stroke: white
+}
+.svg-icon:hover {
+  stroke: #71928a;
+}
 
 /* Infobox */
 .info-box {
@@ -30,20 +51,7 @@
   flex-basis: 85% 
 }
 
-.close-btn {
-  color: white;
-  background: none;
-  border: none;
-  position: absolute;
-  top: 22px;
-  right: 15px;
-}
-.svg-icon {
-  stroke: white
-}
-.svg-icon:hover {
-  stroke: rgb(240, 191, 150);
-}
+
 
 /* animated content */
 .wrapper {
@@ -76,8 +84,8 @@
   position: absolute;
   top: 0;
   left:0;
-  color: rgba(255, 255, 255, 0.329);  
-  background: url(./graphics/jungle.jpg);
+  color: rgba(255, 255, 255, 0.2);  
+  background: url(./graphics/background.png);
   background-clip: text;
   background-size: cover;
   width: 100%;
@@ -91,7 +99,7 @@
   left:0;
   width: 100%;
   height: 100%;
-  color: rgb(240, 191, 150);
+  color: #415364;
 }
 /* #2: Board */
 .board-container {
@@ -141,7 +149,7 @@
   left: 100px;
   width: 400px;
   height: 600px;
-  background-color:  rgb(240, 191, 150);
+  background-color:  #71928a;
 }
 /*Modal*/
 .modal-btn {
@@ -162,7 +170,7 @@
 .modal-btn::before {
   content: "";
   position: absolute;
-  background: rgb(240, 191, 150);
+  background: #71928a;
   bottom: 0;
   left: 0;
   right: 0;
@@ -173,7 +181,7 @@
 .modal-btn:hover {
   color: rgb(64, 64, 64);
   transition: 0.7s;
-  border: 2px solid rgb(240, 191, 150)
+  border: 2px solid #71928a
 }
 .modal-btn:hover:before {
   top: 0;
@@ -198,12 +206,12 @@
   width: 100%;
   max-width: 1000px;
   margin: auto;
-  padding: 30px 0;
   text-align: center;
-  overflow: visible
+  
 }
 .modal-head {
   margin:auto;
+  padding-top: 30px;
   border-bottom: 1px solid white;
   width: 80%
 }
@@ -221,15 +229,19 @@
   padding: 5px;
   text-align: left; 
 }
-
-a {
-  color: white
+.modal-footer {
+  padding-bottom: 30px;
 }
-@media all and (max-width: 1000px) {
+
+@media all and (max-width: 880px) {
   .modal-box{
     top:0;
     height:100%;
-    overflow:visible
+    overflow: scroll;
+  }
+  .modal-container{
+    height:auto;
+    
   }
 }
 
