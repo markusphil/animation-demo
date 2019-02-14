@@ -226,7 +226,7 @@ a:hover {
 }
 .modal-content {
   max-width: 400px;
-  width: 100%;
+  width: 90%;
   padding: 5px;
   text-align: left; 
 }
