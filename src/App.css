@@ -258,6 +258,10 @@ a:hover {
     overflow: scroll;
     max-width: initial 
   }
+  .modal-content {
+    max-width: 28%;
+    min-width: 280px
+  }
 }
 
 @media all and (max-width: 1500px) {
@@ -284,7 +288,8 @@ a:hover {
     max-height:initial;
   }
   .modal-content{
-    max-width: initial
+    max-width: initial;
+    min-width: initial
   }
   .titleContainer{
     height:400px
