@@ -6,7 +6,7 @@ import './App.css';
 
 
 import Title from './components/title';
-import BoardG from './components/board';
+import Board from './components/board';
 import {Modal} from './components/modal';
 import {InfoBox} from './components/infobox';
 
@@ -60,7 +60,7 @@ toggleModal = () => {
       </Transition>
       <div className = "wrapper">
         <Title text="animated hover-events"/>
-        <BoardG/>
+        <Board/>
         <button className="modal-btn" onClick={this.toggleModal} ref={btn => this.buttonRef = btn}>about</button>
       </div> 
     </div> 

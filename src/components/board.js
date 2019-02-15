@@ -4,7 +4,7 @@ import {Icosahedron} from '../graphics/icosahedron'
 
 
 
-class BoardG extends Component {
+class Board extends Component {
 
     constructor(props) {
         super(props);
@@ -53,8 +53,8 @@ resetPosition = ()=> {
         <div className = "icosahedron" ref= {svg => this.objectRef = svg}>
                 <Icosahedron width="100%"/>
             </div>
-        <div className ="display" ref= {svg => this.displayRef = svg}>
-          <h2>utilizing <a id="gsap-link" href="https://greensock.com/" >greensock</a>, <a id="emotion-link" href="https://emotion.sh/">emotion</a> and <br/> <a id="rtg-link" href="https://reactcommunity.org/react-transition-group/">react-transition-group</a></h2>
+        <div className ="display" ref= {svg => this.displayRef = svg} >
+          <h2 onMouseMove={event => event.stopPropagation()}>utilizing <a id="gsap-link" href="https://greensock.com/" >greensock</a>, <a id="emotion-link" href="https://emotion.sh/">emotion</a> and <br/> <a id="rtg-link" href="https://reactcommunity.org/react-transition-group/">react-transition-group</a></h2>
         </div>
           <div className="backplate"
             ref={div => this.boardRef = div}
@@ -65,4 +65,4 @@ resetPosition = ()=> {
     }
   }
   
-  export default BoardG;
+  export default Board;
