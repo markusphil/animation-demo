@@ -51,7 +51,7 @@ resetPosition = ()=> {
         onMouseLeave={this.resetPosition}
         >
         <div className = "icosahedron" ref= {svg => this.objectRef = svg}>
-                <Icosahedron width="400px"/>
+                <Icosahedron width="100%"/>
             </div>
         <div className ="display" ref= {svg => this.displayRef = svg}>
           <h2>utilizing <a id="gsap-link" href="https://greensock.com/" >greensock</a>, <a id="emotion-link" href="https://emotion.sh/">emotion</a> and <br/> <a id="rtg-link" href="https://reactcommunity.org/react-transition-group/">react-transition-group</a></h2>
