@@ -11,7 +11,7 @@ export const InfoBox = (props) => (
             </button> 
         </div>
         <div className="info-body">
-        <p><strong>Attention:</strong> This demo is developed for desktop mouse-events and won't work properly with touchscreen input!</p>
+        <p>This demo is developed for desktop mouse-events and won't work properly with touchscreen input!</p>
         </div>
         
            

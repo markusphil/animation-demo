@@ -51,9 +51,9 @@ render(){
             <div className="modal-container">
               <div className="modal-content">
                 <p>This demo showcases some experiments with animations I've done over the past few weeks. It uses different technologies to create interactive animations.
-                  Please note that it is not optimized for performance and stability and does not work as intended on touchscreen devices. Nervetheless the components are responsive, so that all content is accessible on different screen-sizes</p>
+                  Please note that it is not optimized for performance and stability and does not work properly on touchscreen devices. Nevertheless, the components are responsive so that all content can be displayed on different screen-sizes.</p>
                 <h3>Using React as Framework</h3>
-                <p>The demo uses React as state-of-the-art framework to create a component based user interface. It is deployed via github and <a id="nlfy-link" href="https://www.netlify.com/">netlify</a></p>
+                <p>The demo uses React as state-of-the-art framework to create a component-based user interface. It is deployed via github and <a id="nlfy-link" href="https://www.netlify.com/">netlify</a></p>
               </div>
               <div className="modal-content">
                 <h3>Animated Clip-Path Hover-Effect</h3>
@@ -66,13 +66,13 @@ render(){
                 <h3>Animated 3D-Tilt Hover-Effect</h3>
                 <p>The second animation also uses the mouse's position. 
                   But instead of using a styled component, the animation is generated with <a id="gsap-link" href="https://greensock.com/" >GSAP's</a> TweenLite tool.
-                  Mouse movement on the container again updates the state, which triggers a function that overrides the animation's target-transformation.
-                  While the mouse is moved over the text the overriding will be paused, so that the user can easily reach the links.
+                  Mouse movement on the container again updates the state, which triggers a function that overrides the animation's target transformation.
+                  While the mouse is moved over the text, the overriding will be paused so that the user can easily reach the links.
                 </p>
               </div>
               <div className="modal-content">
-                <h3>GSAP for simple animation</h3>
-                <p> Greensocks TweenLite and TimelineLite tools are used for animating the infobox, the button and the modal. For the infobox I additionaly used the Transition component of <a id="rtg-link" href="https://reactcommunity.org/react-transition-group/">react-transition-group</a>, which handles the entrance and exit of components to the DOM. 
+                <h3>GSAP for Simple Animations</h3>
+                <p> Greensocks TweenLite and TimelineLite tools are used for animating the infobox, the button and the modal. For the infobox I additionaly used the Transition component of <a id="rtg-link" href="https://reactcommunity.org/react-transition-group/">react-transition-group</a>, which handles the components' entrance to and exit from the DOM. 
                 </p>
                 <p>Background photo by <a href="https://www.pexels.com/photo/palm-tree-926641/">Hedaetul Islam</a> </p>
               </div>
